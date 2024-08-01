@@ -25,7 +25,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/vendor/fonts/boxicons.css",
+              "src/assets/vendor/css/core.css",
+              "src/assets/vendor/css/theme-default.css",
+              "src/assets/css/demo.css",
+              "src/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css"
             ],
             "scripts": []
           },

@@ -1,0 +1,36 @@
+<div class="container-xxl flex-grow-1 container-p-y">
+    <h4 class="fw-bold py-3 mb-4 text-muted fw-light">Liste Jeux Video  </h4>
+
+    <div class="card">
+        <h5 class="card-header">Table Basic</h5>
+        <div class="table-responsive text-nowrap">
+          <table class="table">
+            <thead>
+              <tr>
+                <th> id </th>
+                <th> titre </th>
+                <th> developpeur </th>
+                <th> editeur </th>
+                <th> genre </th>
+                <th> plateforme </th>
+                <th> date_sortie </th>
+                <th> prix </th>
+              </tr>
+            </thead>
+            <tbody class="table-border-bottom-0">
+                <tr *ngFor="let jeux of this.jeuxVideos"> 
+                    <td> {{jeux.id }} </td>
+                    <td> {{jeux.titre }} </td>
+                    <td> {{jeux.developpeur }} </td>
+                    <td> {{jeux.editeur }} </td>
+                    <td> {{jeux.genre }} </td>
+                    <td> {{jeux.plateforme }} </td>
+                    <td> {{jeux.date_sortie }} </td>
+                    <td> {{jeux.prix }} </td>
+                </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+</div>
