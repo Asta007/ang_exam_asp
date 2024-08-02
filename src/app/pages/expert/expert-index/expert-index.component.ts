@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { expertInterface } from 'src/app/Interfaces/expertInterface';
 import { ExpertService } from 'src/app/services/expert.service';
 
@@ -15,7 +16,7 @@ export class ExpertIndexComponent {
     this.read();
   }
 
-  constructor(private expertervice : ExpertService ){
+  constructor(private expertervice : ExpertService, private router:Router ){
 
   }
 
@@ -25,6 +26,12 @@ export class ExpertIndexComponent {
         this.experts = resp;
         // console.log (resp);
       }
+    })
+  }
+
+  delete(id?:string){
+    this.expertervice.delete(id).subscribe({
+      next:()=>{this.ngOnInit()}
     })
   }
 

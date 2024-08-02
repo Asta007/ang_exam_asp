@@ -26,12 +26,14 @@ export class ExpertService {
      return this.httpClient.get<expertInterface>(`${this.baseUrl}/${id}`);
   }
 
+  // Mis a jour d'un expert
   update(expert:expertInterface):Observable<expertInterface>{
     return this.httpClient.put<expertInterface>(`${this.baseUrl}/${expert.id}`,expert);
   }
 
-  delete(id: number): Observable<void> {
-    return this.httpClient.delete<void>(this.baseUrl+'/${id}');
+  // Suppression  d'un expert
+  delete(id?: string): Observable<void> {
+    return this.httpClient.delete<void>(`${this.baseUrl}/${id}`);
   }
 
 

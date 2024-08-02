@@ -1,0 +1,519 @@
+{
+  "jeux_video": [
+    {
+      "id": "1",
+      "titre": "Super Adventure",
+      "developpeur": "Fun Games Studio",
+      "editeur": "Big Publisher Co.",
+      "genre": "Aventure",
+      "plateforme": "PC",
+      "date_sortie": "2021-11-12",
+      "prix": 49.99
+    },
+    {
+      "id": "2",
+      "titre": "Galaxy Warriors",
+      "developpeur": "Space Games Inc.",
+      "editeur": "Galaxy Publishing",
+      "genre": "Action",
+      "plateforme": "PS5",
+      "date_sortie": "2022-03-15",
+      "prix": 59.99
+    },
+    {
+      "id": "3",
+      "titre": "Mystic Quest",
+      "developpeur": "Fantasy Studios",
+      "editeur": "DreamWorks Interactive",
+      "genre": "RPG",
+      "plateforme": "Xbox",
+      "date_sortie": "2020-08-23",
+      "prix": 54.99
+    },
+    {
+      "id": "4",
+      "titre": "Racing Fever",
+      "developpeur": "Speedster Games",
+      "editeur": "Fast Track Media",
+      "genre": "Course",
+      "plateforme": "PC",
+      "date_sortie": "2023-01-05",
+      "prix": 39.99
+    },
+    {
+      "id": "5",
+      "titre": "Battlefield Heroes",
+      "developpeur": "Warrior Studios",
+      "editeur": "Combat Games",
+      "genre": "Action",
+      "plateforme": "PS4",
+      "date_sortie": "2022-10-19",
+      "prix": 44.99
+    },
+    {
+      "id": "6",
+      "titre": "Puzzle World",
+      "developpeur": "Brain Games Ltd.",
+      "editeur": "Smart Publishers",
+      "genre": "Puzzle",
+      "plateforme": "Switch",
+      "date_sortie": "2019-05-30",
+      "prix": 29.99
+    },
+    {
+      "id": "7",
+      "titre": "Soccer Pro",
+      "developpeur": "Sports Interactive",
+      "editeur": "Goal Games",
+      "genre": "Sport",
+      "plateforme": "Xbox",
+      "date_sortie": "2023-07-11",
+      "prix": 59.99
+    },
+    {
+      "id": "8",
+      "titre": "Mystery Manor",
+      "developpeur": "Enigma Studios",
+      "editeur": "Puzzle Adventures",
+      "genre": "Aventure",
+      "plateforme": "PC",
+      "date_sortie": "2021-02-14",
+      "prix": 49.99
+    },
+    {
+      "id": "9",
+      "titre": "Futuristic Racer",
+      "developpeur": "Neo Games",
+      "editeur": "Next Gen Publishing",
+      "genre": "Course",
+      "plateforme": "PS5",
+      "date_sortie": "2020-12-03",
+      "prix": 69.99
+    },
+    {
+      "id": "10",
+      "titre": "Zombie Survival",
+      "developpeur": "Apocalypse Games",
+      "editeur": "Survivor Studios",
+      "genre": "Horreur",
+      "plateforme": "PC",
+      "date_sortie": "2022-09-22",
+      "prix": 59.99
+    },
+    {
+      "id": "11",
+      "titre": "Magic Kingdom",
+      "developpeur": "Fantasy Labs",
+      "editeur": "Enchanted Worlds",
+      "genre": "Aventure",
+      "plateforme": "Switch",
+      "date_sortie": "2023-04-15",
+      "prix": 49.99
+    },
+    {
+      "id": "12",
+      "titre": "War of Ages",
+      "developpeur": "Historical Games",
+      "editeur": "Epic Battles Co.",
+      "genre": "Stratégie",
+      "plateforme": "PC",
+      "date_sortie": "2021-11-05",
+      "prix": 64.99
+    },
+    {
+      "id": "13",
+      "titre": "Cyber Punked",
+      "developpeur": "Futuristic Studios",
+      "editeur": "Neon Games",
+      "genre": "RPG",
+      "plateforme": "PS5",
+      "date_sortie": "2022-06-17",
+      "prix": 74.99
+    },
+    {
+      "id": "14",
+      "titre": "Ancient Ruins",
+      "developpeur": "History Makers",
+      "editeur": "Timeless Adventures",
+      "genre": "Aventure",
+      "plateforme": "PC",
+      "date_sortie": "2020-07-25",
+      "prix": 34.99
+    },
+    {
+      "id": "15",
+      "titre": "Alien Invasion",
+      "developpeur": "Outer Space Games",
+      "editeur": "Galaxy Publishing",
+      "genre": "Action",
+      "plateforme": "Xbox",
+      "date_sortie": "2021-12-10",
+      "prix": 59.99
+    },
+    {
+      "id": "16",
+      "titre": "Farm Life",
+      "developpeur": "Rural Studios",
+      "editeur": "Greenfield Games",
+      "genre": "Simulation",
+      "plateforme": "Switch",
+      "date_sortie": "2019-03-09",
+      "prix": 39.99
+    },
+    {
+      "id": "17",
+      "titre": "Stealth Ops",
+      "developpeur": "Shadow Games",
+      "editeur": "Covert Studios",
+      "genre": "Action",
+      "plateforme": "PC",
+      "date_sortie": "2023-05-20",
+      "prix": 54.99
+    },
+    {
+      "id": "18",
+      "titre": "Island Escape",
+      "developpeur": "Paradise Games",
+      "editeur": "Sunny Day Studios",
+      "genre": "Aventure",
+      "plateforme": "PS4",
+      "date_sortie": "2021-08-18",
+      "prix": 49.99
+    },
+    {
+      "id": "19",
+      "titre": "Medieval Siege",
+      "developpeur": "Castle Builders",
+      "editeur": "Knight Games",
+      "genre": "Stratégie",
+      "plateforme": "PC",
+      "date_sortie": "2022-11-25",
+      "prix": 59.99
+    },
+    {
+      "id": "20",
+      "titre": "Underwater Odyssey",
+      "developpeur": "Oceanic Studios",
+      "editeur": "Deep Sea Games",
+      "genre": "Aventure",
+      "plateforme": "Switch",
+      "date_sortie": "2023-02-12",
+      "prix": 44.99
+    }
+  ],
+  "pays": [
+    {
+      "id": "1",
+      "nom": "France",
+      "capitale": "Paris",
+      "population": 67000000,
+      "superficie": 551695,
+      "monnaie": "Euro",
+      "langue_officielle": "Français"
+    },
+    {
+      "id": "2",
+      "nom": "Allemagne",
+      "capitale": "Berlin",
+      "population": 83000000,
+      "superficie": 357022,
+      "monnaie": "Euro",
+      "langue_officielle": "Allemand"
+    },
+    {
+      "id": "3",
+      "nom": "Italie",
+      "capitale": "Rome",
+      "population": 60200000,
+      "superficie": 301340,
+      "monnaie": "Euro",
+      "langue_officielle": "Italien"
+    },
+    {
+      "id": "4",
+      "nom": "Espagne",
+      "capitale": "Madrid",
+      "population": 47000000,
+      "superficie": 505992,
+      "monnaie": "Euro",
+      "langue_officielle": "Espagnol"
+    },
+    {
+      "id": "5",
+      "nom": "Royaume-Uni",
+      "capitale": "Londres",
+      "population": 67000000,
+      "superficie": 243610,
+      "monnaie": "Livre sterling",
+      "langue_officielle": "Anglais"
+    },
+    {
+      "id": "6",
+      "nom": "États-Unis",
+      "capitale": "Washington D.C.",
+      "population": 331000000,
+      "superficie": 9372610,
+      "monnaie": "Dollar américain",
+      "langue_officielle": "Anglais"
+    },
+    {
+      "id": "7",
+      "nom": "Canada",
+      "capitale": "Ottawa",
+      "population": 38000000,
+      "superficie": 9976140,
+      "monnaie": "Dollar canadien",
+      "langue_officielle": "Anglais, Français"
+    },
+    {
+      "id": "8",
+      "nom": "Japon",
+      "capitale": "Tokyo",
+      "population": 126000000,
+      "superficie": 377975,
+      "monnaie": "Yen",
+      "langue_officielle": "Japonais"
+    },
+    {
+      "id": "9",
+      "nom": "Australie",
+      "capitale": "Canberra",
+      "population": 25600000,
+      "superficie": 7692024,
+      "monnaie": "Dollar australien",
+      "langue_officielle": "Anglais"
+    },
+    {
+      "id": "10",
+      "nom": "Brésil",
+      "capitale": "Brasilia",
+      "population": 213000000,
+      "superficie": 8515767,
+      "monnaie": "Réel brésilien",
+      "langue_officielle": "Portugais"
+    },
+    {
+      "id": "11",
+      "nom": "Mexique",
+      "capitale": "Mexico",
+      "population": 128000000,
+      "superficie": 1964375,
+      "monnaie": "Peso mexicain",
+      "langue_officielle": "Espagnol"
+    },
+    {
+      "id": "12",
+      "nom": "Inde",
+      "capitale": "New Delhi",
+      "population": 1380000000,
+      "superficie": 3287263,
+      "monnaie": "Roupie indienne",
+      "langue_officielle": "Hindi, Anglais"
+    },
+    {
+      "id": "13",
+      "nom": "Chine",
+      "capitale": "Pékin",
+      "population": 1390000000,
+      "superficie": 9596961,
+      "monnaie": "Yuan",
+      "langue_officielle": "Chinois"
+    },
+    {
+      "id": "14",
+      "nom": "Afrique du Sud",
+      "capitale": "Pretoria",
+      "population": 60000000,
+      "superficie": 1219090,
+      "monnaie": "Rand",
+      "langue_officielle": "Afrikaans, Anglais"
+    },
+    {
+      "id": "15",
+      "nom": "Égypte",
+      "capitale": "Le Caire",
+      "population": 102000000,
+      "superficie": 1001450,
+      "monnaie": "Livre égyptienne",
+      "langue_officielle": "Arabe"
+    }
+  ],
+  "personnes": [
+    {
+      "id": "4",
+      "nom": "Sy",
+      "prenom": "Aissatou",
+      "login": "aissatou.sy@example.com",
+      "specialite": "Journaliste",
+      "discriminator": "lecteur"
+    },
+    {
+      "id": "5",
+      "nom": "Ndiaye",
+      "prenom": "Abdoulaye",
+      "login": "abdoulaye.ndiaye@example.com",
+      "specialite": "Architecte",
+      "discriminator": "expert"
+    },
+    {
+      "id": "6",
+      "nom": "Faye",
+      "prenom": "Mouhamadou",
+      "login": "mouhamadou.faye@example.com",
+      "specialite": "Pharmacien",
+      "discriminator": "etudiant"
+    },
+    {
+      "id": "7",
+      "nom": "Ba",
+      "prenom": "Sophie",
+      "login": "sophie.ba@example.com",
+      "specialite": "Enseignant",
+      "discriminator": "lecteur"
+    },
+    {
+      "id": "8",
+      "nom": "Toure",
+      "prenom": "Aliou",
+      "login": "aliou.toure@example.com",
+      "specialite": "Médecin",
+      "discriminator": "expert"
+    },
+    {
+      "id": "9",
+      "nom": "Senghor",
+      "prenom": "Aissatou",
+      "login": "aissatou.senghor@example.com",
+      "specialite": "Biologiste",
+      "discriminator": "etudiant"
+    },
+    {
+      "id": "10",
+      "nom": "Diarra",
+      "prenom": "Mamadou",
+      "login": "mamadou.diarra@example.com",
+      "specialite": "Ingénieur",
+      "discriminator": "expert"
+    },
+    {
+      "id": "11",
+      "nom": "Diallo",
+      "prenom": "Aminata",
+      "login": "aminata.diallo@example.com",
+      "specialite": "Psychologue",
+      "discriminator": "lecteur"
+    },
+    {
+      "id": "12",
+      "nom": "Kane",
+      "prenom": "Ibrahima",
+      "login": "ibrahima.kane@example.com",
+      "specialite": "Avocat",
+      "discriminator": "expert"
+    },
+    {
+      "id": "13",
+      "nom": "Ndoye",
+      "prenom": "Fatoumata",
+      "login": "fatoumata.ndoye@example.com",
+      "specialite": "Médecin",
+      "discriminator": "etudiant"
+    },
+    {
+      "id": "14",
+      "nom": "Gueye",
+      "prenom": "Ibrahim",
+      "login": "ibrahime.gueye@example.com",
+      "specialite": "Ingénieur",
+      "discriminator": "expert"
+    },
+    {
+      "id": "15",
+      "nom": "Lamine",
+      "prenom": "Moussa",
+      "login": "moussa.lamine@example.com",
+      "specialite": "Journaliste",
+      "discriminator": "lecteur"
+    },
+    {
+      "id": "16",
+      "nom": "Seck",
+      "prenom": "Mariama",
+      "login": "mariama.seck@example.com",
+      "specialite": "Architecte",
+      "discriminator": "etudiant"
+    },
+    {
+      "id": "17",
+      "nom": "Sall",
+      "prenom": "Amadou",
+      "login": "amadou.sall@example.com",
+      "specialite": "Biologiste",
+      "discriminator": "expert"
+    },
+    {
+      "id": "18",
+      "nom": "Sow",
+      "prenom": "Khadija",
+      "login": "khadija.sow@example.com",
+      "specialite": "Pharmacien",
+      "discriminator": "lecteur"
+    },
+    {
+      "id": "19",
+      "nom": "Ndiaye",
+      "prenom": "Cheikh",
+      "login": "cheikh.ndiaye@example.com",
+      "specialite": "Enseignant",
+      "discriminator": "etudiant"
+    },
+    {
+      "id": "20",
+      "nom": "Thiam",
+      "prenom": "Aissatou",
+      "login": "aissatou.thiam@example.com",
+      "specialite": "Psychologue",
+      "discriminator": "expert"
+    },
+    {
+      "id": "21",
+      "nom": "Sylla",
+      "prenom": "Mamadou",
+      "login": "mamadou.sylla@example.com",
+      "specialite": "Médecin",
+      "discriminator": "lecteur"
+    },
+    {
+      "id": "22",
+      "nom": "Mane",
+      "prenom": "Ndeye",
+      "login": "ndege.mane@example.com",
+      "specialite": "Avocat",
+      "discriminator": "etudiant"
+    },
+    {
+      "id": "23",
+      "nom": "Diagne",
+      "prenom": "Oumar",
+      "login": "oumar.diagne@example.com",
+      "specialite": "Ingénieur",
+      "discriminator": "expert"
+    },
+    {
+      "id": "24",
+      "nom": "Faye",
+      "prenom": "Rama",
+      "login": "rama.faye@example.com",
+      "specialite": "Architecte",
+      "discriminator": "lecteur"
+    },
+    {
+      "id": "25",
+      "nom": "Cissé",
+      "prenom": "Alioune",
+      "login": "alioune.cisse@example.com",
+      "specialite": "Biologiste",
+      "discriminator": "etudiant"
+    }
+  ]
+}

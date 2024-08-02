@@ -29,7 +29,7 @@
                     <td> {{expert.discriminator }} </td>
                     <td>
                       <a href="javascript:void();" [routerLink]="['/expert/edit/',expert.id]" class="btn btn-light border me-2"> <i class='bx bx-edit-alt'></i> </a>
-                      <a href="javascript:void();" class="btn btn-primary"> <i class='bx bx-trash'></i> </a>
+                      <a href="javascript:void();" (click)="delete(expert.id)" class="btn btn-primary"> <i class='bx bx-trash'></i> </a>
                     </td>
                 </tr>
             </tbody>
