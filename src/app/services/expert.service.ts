@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { expertInterface } from '../Interfaces/expertInterface';
-import { Observable } from 'rxjs';
+import { concat, Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -17,21 +17,21 @@ export class ExpertService {
   }
 
   // sauvegarde des donnés dans la BD
-  store(){
-
+  store(expert:expertInterface):Observable<expertInterface> {
+    return this.httpClient.post<expertInterface>(this.baseUrl, expert)
   }
 
   // Lecteur detaille d'un expert
-  show(){
-
+  show(id:string):Observable<expertInterface>{
+     return this.httpClient.get<expertInterface>(`${this.baseUrl}/${id}`);
   }
 
-  update(){
-
+  update(expert:expertInterface):Observable<expertInterface>{
+    return this.httpClient.put<expertInterface>(`${this.baseUrl}/${expert.id}`,expert);
   }
 
-  delete(){
-    
+  delete(id: number): Observable<void> {
+    return this.httpClient.delete<void>(this.baseUrl+'/${id}');
   }
 
 

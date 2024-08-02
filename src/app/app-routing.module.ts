@@ -12,13 +12,13 @@ import { ExpertCreateComponent } from './pages/expert/expert-create/expert-creat
 const routes: Routes = [
   {path : "jeux_video", component : JeuxVideoIndexComponent },
   {path : "jeux_video/create", component : JeuxVideoCreateComponent },
-  {path : "jeux_video/{id}", component : JeuxVideoShowComponent },
-  {path : "jeux_video/edit/{id}", component : JeuxVideoEditComponent },
+  {path : "jeux_video/:id", component : JeuxVideoShowComponent },
+  {path : "jeux_video/edit/:id", component : JeuxVideoEditComponent },
   
   {path : "expert", component : ExpertIndexComponent },
   {path : "expert/create", component : ExpertCreateComponent },
-  {path : "expert/{id}", component : ExpertShowComponent  },
-  {path : "expert/edit/{id}", component : ExpertEditComponent },
+  {path : "expert/:id", component : ExpertShowComponent  },
+  {path : "expert/edit/:id", component : ExpertEditComponent },
 ];
 
 @NgModule({

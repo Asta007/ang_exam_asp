@@ -1,7 +1,7 @@
 <div class="container-xxl flex-grow-1 container-p-y">
     <div class="d-flex align-items-center justify-content-between">
         <h4 class="fw-bold py-3 mb-4 text-muted fw-light col-4">Liste des Expert  </h4>
-        <a routerLink="/expert/create" href="javascript:void(0);" class="btn btn-dark"> <i class='bx bx-plus-circle'></i> Ajouter </a>
+        <a routerLink="/expert/create" href="javascript:void(0);" class="btn btn-primary"> <i class='bx bx-plus-circle'></i> Ajouter </a>
     </div>
 
     <div class="card">
@@ -10,22 +10,27 @@
           <table class="table">
             <thead>
               <tr>
-                <th> id </th>
+                <!-- <th> id </th> -->
                 <th> nom </th>
                 <th> prenom </th>
                 <th> login </th>
                 <th> specialite </th>
                 <th> type </th>
+                <th>  </th>
               </tr>
             </thead>
             <tbody class="table-border-bottom-0">
                 <tr *ngFor="let expert of this.experts"> 
-                    <td> {{expert.id }} </td>
-                    <td> {{expert.nom }} </td>
-                    <td> {{expert.prenom }} </td>
+                    <!-- <td> {{expert.id }} </td> -->
+                    <td> <a class="text-dark" [routerLink]="['/expert/',expert.id]" href="javascript:void();"> {{expert.nom }} </a> </td>
+                    <td> <a class="text-dark" [routerLink]="['/expert/',expert.id]" href="javascript:void();"> {{expert.prenom }} </a> </td>
                     <td> {{expert.login }} </td>
                     <td> {{expert.specialite }} </td>
                     <td> {{expert.discriminator }} </td>
+                    <td>
+                      <a href="javascript:void();" [routerLink]="['/expert/edit/',expert.id]" class="btn btn-light border me-2"> <i class='bx bx-edit-alt'></i> </a>
+                      <a href="javascript:void();" class="btn btn-primary"> <i class='bx bx-trash'></i> </a>
+                    </td>
                 </tr>
             </tbody>
           </table>

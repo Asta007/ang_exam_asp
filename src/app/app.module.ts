@@ -15,6 +15,7 @@ import { ExpertCreateComponent } from './pages/expert/expert-create/expert-creat
 import { ExpertIndexComponent } from './pages/expert/expert-index/expert-index.component';
 import { ExpertShowComponent } from './pages/expert/expert-show/expert-show.component';
 import { ExpertEditComponent } from './pages/expert/expert-edit/expert-edit.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ExpertEditComponent } from './pages/expert/expert-edit/expert-edit.comp
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -22,7 +22,7 @@ export class ExpertIndexComponent {
   read(){
     return this.expertervice.read().subscribe({
       next : (resp :expertInterface[]) => {
-        // this.experts = resp;
+        this.experts = resp;
         // console.log (resp);
       }
     })
